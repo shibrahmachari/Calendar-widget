@@ -15,7 +15,10 @@ class Navbar extends React.Component {
       >
         <div className="navbar">
           <SideNav.Nav defaultSelected="home">
-            <NavItem eventKey="charts">
+            <NavItem
+              eventKey="charts"
+              navitemStyle={{ paddingTop: "7px", marginBottom: "150px" }}
+            >
               <NavIcon>
                 <i
                   className="fa fa-fw fa-fire"
@@ -44,7 +47,7 @@ class Navbar extends React.Component {
               <NavText>Charts</NavText>
             </NavItem>
 
-            <NavItem eventKey="charts/linechart">
+            <NavItem eventKey="linechart">
               <NavIcon>
                 <i
                   className="fa fa-fw fa-home"
@@ -53,7 +56,25 @@ class Navbar extends React.Component {
               </NavIcon>
               <NavText>Line Chart</NavText>
             </NavItem>
-            <NavItem eventKey="charts/barchart">
+            <NavItem eventKey="linechart">
+              <NavIcon>
+                <i
+                  className="fa fa-fw fa-home"
+                  style={{ fontSize: "1.75em", color: "#bbc5cf" }}
+                />
+              </NavIcon>
+              <NavText>Line Chart</NavText>
+            </NavItem>
+            <NavItem eventKey="linechart">
+              <NavIcon>
+                <i
+                  className="fa fa-fw fa-home"
+                  style={{ fontSize: "1.75em", color: "#bbc5cf" }}
+                />
+              </NavIcon>
+              <NavText>Line Chart</NavText>
+            </NavItem>
+            <NavItem eventKey="barchart">
               <NavIcon>
                 <i
                   className="fa fa-fw fa-home"

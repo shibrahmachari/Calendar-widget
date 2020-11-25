@@ -2,7 +2,7 @@ import React from "react";
 
 import Calendar from "./components/Calendar/Calendar";
 import Navbar from "./components/Navbar/Nav";
-
+import PopUpButton from "./components/Button/Button";
 import dp from "./dp.jpg";
 import "./App.css";
 
@@ -24,14 +24,16 @@ class App extends React.Component {
                 <img src={dp} className="user-dp"></img>
               </div>
             </div>
-            <div className="left-calendar">
-              <div style={{ height: "600px" }}>
-                <Calendar />
+            <div>
+              <div className="left-calendar">
+                <div style={{ marginBottom: "15px" }}>
+                  <Calendar />
+                </div>
+                <PopUpButton />
+                <PopUpButton />
+                <PopUpButton />
               </div>
-
-              <button>hi</button>
-              <button>hi</button>
-              <button>hi</button>
+              <div className="right-calendar"></div>
             </div>
           </div>
         </div>

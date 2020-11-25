@@ -7,10 +7,3 @@
   --neutral-color: #fff;
   --header-color: #dd3e21;
 }
-.navbar {
-  background: var(--neutral-color);
-  padding-top: 10px;
-}
-.navbar .fire-icon {
-  padding-top: 10px;
-}
