@@ -1,18 +1,23 @@
 
 import React from "react";
 import {format, addDays, startOfWeek,startOfMonth,endOfWeek,isSameMonth,addMonths,subMonths,endOfMonth, isSameDay, parse,} from 'date-fns';
+import "./Calendar.css"
 
 class Calendar extends React.Component {
-  state = {
-    currentMonth: new Date(),
-    selectedDate: new Date()
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      currentMonth: new Date(),
+      selectedDate: new Date(),
+    };
+  }
+  
 
   renderHeader() {
     const dateFormat = "MMMM yyyy";
 
     return (
-      <div className="header row flex-middle">
+      <div className="header row flex-middle" >
         <div className="col col-start">
           <div className="icon" onClick={this.prevMonth}>
             chevron_left
@@ -29,7 +34,7 @@ class Calendar extends React.Component {
   }
 
   renderDays() {
-    const dateFormat = "EEEE";
+    const dateFormat = "EEEEE";
     const days = [];
 
     let startDate = startOfWeek(this.state.currentMonth);
@@ -111,8 +116,11 @@ class Calendar extends React.Component {
     return (
       <div className="calendar">
         {this.renderHeader()}
+        <div className = "mbody">
         {this.renderDays()}
         {this.renderCells()}
+        </div>
+        
       </div>
     );
   }
