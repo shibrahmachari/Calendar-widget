@@ -16,9 +16,14 @@
   overflow: hidden;
 }
 .main {
-  background: var(--main-color);
+  /* background: var(--main-color); */
   display: flex;
   margin-left: 90px;
+}
+.mainscreen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .icon {
   font-family: "Material Icons", serif;

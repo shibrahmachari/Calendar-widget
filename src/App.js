@@ -10,30 +10,29 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <div className=" top-nav">
-            <div className="name-left">
-              <h2>Franks Planner</h2>
-            </div>
-            <div className="user-right">
-              <h5>Frank Guerrero</h5>
-              <img src={dp} className="user-dp"></img>
-            </div>
-          </div>
-          {/*  */}
-        </header>
         <div className="main">
           <div className="nav">
             <Navbar />
           </div>
-          <div className="left-calendar">
-            <div style={{ height: "600px" }}>
-              <Calendar />
+          <div className="mainscreen">
+            <div className=" top-nav">
+              <div className="name-left">
+                <h2>Franks Planner</h2>
+              </div>
+              <div className="user-right">
+                <h5>Frank Guerrero</h5>
+                <img src={dp} className="user-dp"></img>
+              </div>
             </div>
+            <div className="left-calendar">
+              <div style={{ height: "600px" }}>
+                <Calendar />
+              </div>
 
-            <button>hi</button>
-            <button>hi</button>
-            <button>hi</button>
+              <button>hi</button>
+              <button>hi</button>
+              <button>hi</button>
+            </div>
           </div>
         </div>
       </div>
