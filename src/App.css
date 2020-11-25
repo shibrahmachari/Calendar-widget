@@ -1,13 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
 :root {
   --main-color: #1a8fff;
   --text-color: #777;
   --text-color-light: #ccc;
   --border-color: #eee;
-  --bg-color: #f9f9f9;
+  --bg-color: #f9fafc;
   --neutral-color: #fff;
   --header-color: #dd3e21;
 }
 
-.nav{
-  background: var(--neutral-color);
+.App {
+  background: var(--bg-color);
+  overflow: hidden;
+}
+main {
+  background: var(--header-color);
+}
+.icon {
+  font-family: "Material Icons", serif;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--text-color);
+  background: var(--bg-color);
+  position: relative;
+}
+
+header {
+  overflow: hidden;
+  margin: auto;
+  /* display: block; */
+  color: #000000;
+  position: relative;
+  margin-top: 25px;
+  margin-right: 20px;
+  width: 93%;
+  padding: 0 0;
+  background: var(--bg-color);
+}
+.top-nav {
+  display: flex;
+  margin-left: 10px;
+}
+
+.top-nav .user-right {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+
+  margin-top: 10px;
+}
+.top-nav .user-right .user-dp {
+  margin: 10px;
+  height: 40px;
+  width: 30px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 50%;
+}
+.left-calendar {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
 }
