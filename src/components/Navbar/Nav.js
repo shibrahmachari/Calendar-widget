@@ -1,6 +1,7 @@
 import React from "react";
 import SideNav, { NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav";
 import "font-awesome/css/font-awesome.min.css";
+import "./Nav.css";
 // Be sure to include styles at some point, probably during your bootstraping
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 
@@ -27,6 +28,7 @@ class Navbar extends React.Component {
               </NavIcon>
               <NavText>Charts</NavText>
             </NavItem>
+
             <NavItem eventKey="charts">
               <NavIcon>
                 <i

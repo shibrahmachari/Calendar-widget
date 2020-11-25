@@ -1,7 +1,8 @@
 import React from "react";
-//import { Container, Row, Col } from 'reactstrap';
+
 import Calendar from "./components/Calendar/Calendar";
 import Navbar from "./components/Navbar/Nav";
+
 import dp from "./dp.jpg";
 import "./App.css";
 
@@ -21,12 +22,12 @@ class App extends React.Component {
           </div>
           {/*  */}
         </header>
-        <main>
+        <div className="main">
           <div className="nav">
             <Navbar />
           </div>
           <div className="left-calendar">
-            <div style={{ height: "500px" }}>
+            <div style={{ height: "600px" }}>
               <Calendar />
             </div>
 
@@ -34,7 +35,7 @@ class App extends React.Component {
             <button>hi</button>
             <button>hi</button>
           </div>
-        </main>
+        </div>
       </div>
     );
   }

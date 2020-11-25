@@ -41,7 +41,7 @@
 
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 300;
   line-height: 1.5;
   color: var(--text-color);
@@ -71,7 +71,7 @@ header #logo .icon {
 main {
   display: block;
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 0.5em;
   max-width: 50em;
 }
 
@@ -115,20 +115,21 @@ main {
 
 .calendar {
   border-radius: 15px;
-  display: block;
-  position: relative;
 
+  position: relative;
+  height: 330px;
   width: 50%;
   background: var(--header-color);
   border: 1px hidden var(--border-color);
 }
 .calendar .mbody {
-  display: block;
   position: relative;
-  height: 100%;
+  height: 35%;
   width: 90%;
   border-radius: 15px;
-  margin: 0 auto;
+  padding-top: 8px;
+  margin: 0px auto 20px auto;
+  margin-bottom: 10px;
   background: var(--neutral-color);
 }
 .calendar .mbody .days {
@@ -138,7 +139,7 @@ main {
 .calendar .header {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 80%;
+  font-size: 70%;
   color: var(--neutral-color);
   padding: 2.5em 0;
   border-bottom: 1px hidden var(--border-color);
@@ -171,32 +172,32 @@ main {
   font-weight: 400;
   color: var(--text-color-light);
   font-size: 70%;
-  padding: 0.75em 0;
+  padding: 1em 0;
   border-bottom: 1px hidden var(--border-color);
 }
 
 .calendar .body .cell {
   position: relative;
-  height: 5em;
-  border-right: 1px solid var(--border-color);
+  height: 2.2em;
+  border-right: 1px hidden var(--border-color);
   overflow: hidden;
   cursor: pointer;
   background: var(--neutral-color);
   transition: 0.25s ease-out;
 }
 
-.calendar .body .cell:hover {
+/* .calendar .body .cell:hover {
   transition: 0.5s ease-out;
-}
+} */
 
 .calendar .body .selected {
-  border-left: 10px solid transparent;
+  border-left: 10px hidden transparent;
   border-image: linear-gradient(45deg, #1a8fff 0%, #53cbf1 40%);
   border-image-slice: 1;
 }
 
 .calendar .body .row {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px hidden var(--border-color);
 }
 
 .calendar .body .row:last-child {
@@ -230,15 +231,15 @@ main {
   position: absolute;
   top: -0.2em;
   right: -0.05em;
-  transition: 0.25s ease-out;
+  /* transition: 0.25s ease-out; */
   letter-spacing: -0.07em;
 }
 
-.calendar .body .cell:hover .bg,
+/* .calendar .body .cell:hover .bg,
 .calendar .body .selected .bg {
   opacity: 0.05;
   transition: 0.5s ease-in;
-}
+} */
 
 .calendar .body .col {
   flex-grow: 0;

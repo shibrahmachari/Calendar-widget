@@ -15,8 +15,10 @@
   background: var(--bg-color);
   overflow: hidden;
 }
-main {
-  background: var(--header-color);
+.main {
+  background: var(--main-color);
+  display: flex;
+  margin-left: 90px;
 }
 .icon {
   font-family: "Material Icons", serif;

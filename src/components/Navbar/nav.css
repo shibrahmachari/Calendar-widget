@@ -1,0 +1,16 @@
+:root {
+  --main-color: #1a8fff;
+  --text-color: #777;
+  --text-color-light: #ccc;
+  --border-color: #eee;
+  --bg-color: #f9fafc;
+  --neutral-color: #fff;
+  --header-color: #dd3e21;
+}
+.navbar {
+  background: var(--neutral-color);
+  padding-top: 10px;
+}
+.navbar .fire-icon {
+  padding-top: 10px;
+}
