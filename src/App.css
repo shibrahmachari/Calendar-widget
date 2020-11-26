@@ -83,8 +83,17 @@ header {
   padding: 0px 20px 0px 20px;
   border-radius: 50%;
 }
-.left-calendar {
-  width: 600px;
+.mainscreen .main-calendar {
+  display: flex;
+}
+.mainscreen .main-calendar .left-calendar {
+  width: 80%;
+  flex: 2;
   display: flex;
   flex-direction: column;
+}
+.mainscreen .main-calendar .right-calendar {
+  flex: 7;
+  background: #1a8fff;
+  width: 100%;
 }

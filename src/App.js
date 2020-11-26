@@ -24,7 +24,7 @@ class App extends React.Component {
                 <img src={dp} className="user-dp"></img>
               </div>
             </div>
-            <div>
+            <div className="main-calendar">
               <div className="left-calendar">
                 <div style={{ marginBottom: "15px" }}>
                   <Calendar />
