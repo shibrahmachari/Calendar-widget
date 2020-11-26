@@ -80,9 +80,9 @@ header {
 }
 .top-nav .user-right .user-dp {
   margin: 10px;
-  height: 40px;
-  width: 30px;
-  padding: 0px 20px 0px 20px;
+  height: 25px;
+  width: 25px;
+  padding: 0px 4px 0px 4px;
   border-radius: 50%;
 }
 .mainscreen .main-calendar {
