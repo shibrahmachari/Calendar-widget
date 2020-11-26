@@ -1,8 +1,11 @@
 .tasks {
+
   margin: 15px 0px;
 }
+
 button {
   width: 51%;
+
   padding: 20px 0px;
   background-color: white;
   border-radius: 8px;
