@@ -1,18 +1,11 @@
 .tasks {
-<<<<<<< HEAD
-  margin: 5px 0px;
-  position: relative;
-  left: 6%;
-}
-button {
-  margin: auto;
-  width: 90%;
-=======
+
   margin: 15px 0px;
 }
+
 button {
   width: 51%;
->>>>>>> 73a6c9c2a36d35f2116f0042b7a45e331e8b8777
+
   padding: 20px 0px;
   background-color: white;
   border-radius: 8px;
