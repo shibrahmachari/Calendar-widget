@@ -56,7 +56,7 @@ header {
   overflow: hidden;
   margin: auto;
   /* display: block; */
-  color: #000000;
+
   position: relative;
   margin-top: 25px;
   margin-right: 20px;
@@ -67,6 +67,8 @@ header {
 .top-nav {
   display: flex;
   margin-left: 10px;
+  color: #000000;
+  padding: 15px 0px;
 }
 
 .top-nav .user-right {
@@ -88,12 +90,12 @@ header {
 }
 .mainscreen .main-calendar .left-calendar {
   width: 80%;
-  flex: 2;
+  flex: 3;
   display: flex;
   flex-direction: column;
 }
 .mainscreen .main-calendar .right-calendar {
-  flex: 7;
+  flex: 8;
   background: #1a8fff;
   width: 100%;
 }

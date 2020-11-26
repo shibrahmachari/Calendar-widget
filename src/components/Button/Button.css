@@ -1,8 +1,10 @@
 .tasks {
   margin: 5px 0px;
+  position: relative;
+  left: 6%;
 }
 button {
   margin: auto;
-  width: 80%;
+  width: 90%;
   padding: 20px 0px;
 }

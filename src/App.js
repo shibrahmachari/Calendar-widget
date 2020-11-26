@@ -17,7 +17,7 @@ class App extends React.Component {
           <div className="mainscreen">
             <div className=" top-nav">
               <div className="name-left">
-                <h2>Franks Planner</h2>
+                <h2>Frank's Planner</h2>
               </div>
               <div className="user-right">
                 <h5>Frank Guerrero</h5>

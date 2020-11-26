@@ -26,6 +26,7 @@ class Navbar extends React.Component {
                     fontSize: "1.75em",
                     color: "#dd3e21",
                     padding: "6px",
+                    marginTop: "3px",
                   }}
                 />
               </NavIcon>
