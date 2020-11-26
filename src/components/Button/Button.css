@@ -1,10 +1,18 @@
 .tasks {
-  margin: 5px 0px;
-  position: relative;
-  left: 6%;
+  margin: 15px 0px;
 }
 button {
-  margin: auto;
-  width: 90%;
+  width: 51%;
   padding: 20px 0px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-color: white;
+  border: none !important;
+  
+}
+.text{
+  color: black;
+  font-size: 20px;
+  text-align: center;
 }
