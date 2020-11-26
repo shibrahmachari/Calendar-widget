@@ -4,7 +4,7 @@ class PopUpButton extends React.Component {
   render() {
     return (
       <div className="tasks">
-        <button>hi</button>
+        <button>{this.props.name}</button>
       </div>
     );
   }

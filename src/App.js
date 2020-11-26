@@ -29,9 +29,9 @@ class App extends React.Component {
                 <div style={{ marginBottom: "15px" }}>
                   <Calendar />
                 </div>
-                <PopUpButton />
-                <PopUpButton />
-                <PopUpButton />
+                <PopUpButton name="Blog Infographic" />
+                <PopUpButton name="Nike Project" />
+                <PopUpButton name="Envato Meetup" />
               </div>
               <div className="right-calendar"></div>
             </div>
